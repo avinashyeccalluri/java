@@ -1,0 +1,7 @@
+/**
+ * trying
+ */
+public class trying {
+
+  
+}

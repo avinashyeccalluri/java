@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SelectionSort",
+      "request": "launch",
+      "mainClass": "SelectionSort",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MergeArrays",
+      "request": "launch",
+      "mainClass": "MergeArrays",
+      "projectName": "Java_72da403b"
+    }
+  ]
+}

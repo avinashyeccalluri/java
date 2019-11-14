@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - simple",
+      "request": "launch",
+      "mainClass": "simple"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Sumof3and5",
+      "request": "launch",
+      "mainClass": "Sumof3and5"
+    }
+  ]
+}
