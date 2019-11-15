@@ -2,7 +2,7 @@ class VipCustomer{
   private String name;
   private double credit_limit;
   private String email_address;
-
+	//something
 	public String getName() {
 		return this.name;
 	}
