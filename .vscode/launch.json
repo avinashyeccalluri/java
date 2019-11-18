@@ -2,10 +2,24 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MergeSort",
+      "request": "launch",
+      "mainClass": "MergeSort",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - InsertionSort",
       "request": "launch",
       "mainClass": "InsertionSort",
-      "projectName": "Java_72da403b"
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
