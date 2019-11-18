@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - PhoneNumber",
+      "request": "launch",
+      "mainClass": "PhoneNumber",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MergeSort",
       "request": "launch",
       "mainClass": "MergeSort",
