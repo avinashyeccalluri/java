@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - InsertionSort",
+      "request": "launch",
+      "mainClass": "InsertionSort",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SelectionSort",
       "request": "launch",
       "mainClass": "SelectionSort",
