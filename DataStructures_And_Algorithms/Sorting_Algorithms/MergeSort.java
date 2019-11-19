@@ -36,22 +36,21 @@ public class MergeSort {
     }
     private static int[] merge(int[] left,int[] right){
         int[] result=new int[left.length+right.length];
-        int leftPointer,rigthPointer,resultPointer;
-        leftPointer=rigthPointer=resultPointer=0;
-        while(leftPointer<left.length || rigthPointer <right.length){
-            if(leftPointer<left.length && rigthPointer<right.length){
-                if(left[leftPointer]<right[rigthPointer]){
+        int leftPointer,rightPointer,resultPointer;
+        leftPointer=rightPointer=resultPointer=0;
+        while(leftPointer<left.length || rightPointer <right.length){
+            if(leftPointer<left.length && rightPointer<right.length){
+                if(left[leftPointer]<right[rightPointer]){
                     result[resultPointer++]=left[leftPointer++];
                 }else{
-                    result[resultPointer++]=right[rigthPointer++];
+                    result[resultPointer++]=right[rightPointer++];
                 }
             }else if(leftPointer<left.length){
                 result[resultPointer++]= left[leftPointer++];
-            }else if(rigthPointer<right.length){
-                result[resultPointer++]=right[rigthPointer++];
+            }else if(rightPointer<right.length){
+                result[resultPointer++]=right[rightPointer++];
             }
         }return result;
-
     }
     public static void printArray(int[] givenArray){
         for (int i : givenArray) {

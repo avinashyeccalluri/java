@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MergeSort1",
+      "request": "launch",
+      "mainClass": "MergeSort1",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MergeSort",
       "request": "launch",
       "mainClass": "MergeSort",
