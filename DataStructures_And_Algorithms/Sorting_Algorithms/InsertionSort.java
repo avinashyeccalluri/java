@@ -8,7 +8,7 @@ public class InsertionSort {
     for(int firstUnsortedIndex=1;firstUnsortedIndex<intArray.length;firstUnsortedIndex++){
       int newElement=intArray[firstUnsortedIndex];
       int j;
-      for(j=firstUnsortedIndex;j>0 && intArray[j-1]>newElement;j--){
+          for(j=firstUnsortedIndex;j>0 && intArray[j-1]>newElement;j--){
         intArray[j]=intArray[j-1];
       }
       intArray[j]=newElement;
