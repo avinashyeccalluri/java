@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 /**
  * DescendingOrder
  */
@@ -5,10 +8,8 @@ public class DescendingOrder {
 
     public static void main(String[] args) {
         System.out.println(sortDesc(123456789));
-            
-
     }
-    public static int sortDesc(final int num) {
+    public static int sortDesc1(final int num) {
         String name=String.valueOf(num);
             char[] converted=new char[name.length()];
             for(int i=0;i<name.length();i++){
@@ -36,5 +37,15 @@ public class DescendingOrder {
                 strNum.append(i);
             }
             return Integer.parseInt(strNum.toString());
+      }
+      public static int sortDesc(final int num) {
+        String[] numbers = (Integer.toString(Integer.valueOf(num))).split("");
+        Arrays.sort(numbers);
+        String result = "";
+        for(String s : numbers)
+        {
+          result = s + result;
+        }
+        return Integer.parseInt(result);
       }
 }
