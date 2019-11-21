@@ -5,39 +5,41 @@ import java.lang.*;
 public class Deadfishswim {
 
     public static void main(String[] args) {
-        String name="iiisdoso";
-        char[] a= name.toCharArray();
-        int count=0;
-        System.out.println(a.length);
-        for(int i=0;i<a.length;i++){
-            // System.out.println(a[i]);
-            if(a[i]=='o'){
-                count++;
-                System.out.println(a[i]);
-            }
-        }
-        System.out.println(count);
-        int[] b=new int[count];
-        int initial=0;
-        for(int j=0;j<b.length;j++){
-            switch(a[0]){
-                case 'i':
-                 count++;
-                 break;
-                 case 's':
-                 count=(int) Math.pow(initial,2);
-                 break;
-                 case 'd':
-                 count--;
-                 break;
-                 default:
-                 b[initial]=count;
-                 initial++;
 
-            }
-        }
-        for (int i : b) {
-            System.out.println(i);
+        printArray(parse("iiisdosodddddiso"));
+    }
+
+public static int[] parse(String data) {
+    char[] a= data.toCharArray();
+    int count=0;
+    for(int i=0;i<a.length;i++){
+        if(a[i]=='o'){
+            count++;
         }
     }
+    int[] b=new int[count];
+    int initial=0;
+    int value=0;
+    boolean flag=true;
+    for (int j = 0; j < a.length; j++) {
+        if(a[j]=='i'){
+            value++;
+        }
+        else if(a[j]=='d'){
+            value--;
+        }else if(a[j]=='s'){
+            value=(int) Math.pow(value,2);
+        }else{
+            b[initial]=value;
+            initial++;
+        }
+    }
+
+    return b;
+}
+public static void printArray(int[] as){
+    for(int i:as){
+        System.out.println(i);
+    }
+}
 }
