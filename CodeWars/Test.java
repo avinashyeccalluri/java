@@ -1,21 +1,18 @@
+import java.util.ArrayList;
+
 /**
  * Test
  */
 public class Test {
+
     public static void main(String[] args) {
-        System.out.println(findNb(1071225));
-        
-    }
-    public static long findNb(long m){
-        long total=0;
-        long counter=0;
-        while(total<m){
-            counter++;
-            total+=(long) Math.pow(counter, 3);
-        }
-        if(m== total){
-            return counter;
-        }
-        return -1;
+        ArrayList<Integer> a=new ArrayList<>(1,2,3,4);
     }
 }
+
+// int[] ret = new int[integers.size()];
+//     for (int i=0; i < ret.length; i++)
+//     {
+//         ret[i] = integers.get(i).intValue();
+//     }
+//     return ret;
