@@ -1,5 +1,7 @@
 import java.util.ArrayList;
-
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 /**
  * FlamesConcept
  */
@@ -10,23 +12,23 @@ public class FlamesConcept {
     
   }
   public static int josephusSurvivor(final int n, final int k) {
-    ArrayList<Integer> list=new ArrayList<>();
-    for(int i=1;i<=n;i++){
-      list.add(i);
+        
+    List<Integer> people = new LinkedList<>();
+    for (int i = 1; i <= n; i++) {
+        people.add(i);
     }
-    int index=k-1;
-    int last=0;
-    while(list.size()>1){
-      if(index<list.size()){
-        list.remove(index);
-        index+=k-1;
-      }else{
-        index=index-list.size();
-      }
-    }    
-    for(int i:list){
-      last=i;
+    
+    Iterator iter = people.iterator();
+    while (people.size() > 1) {
+        for (int i = 0; i < k; i++) {
+            if (!iter.hasNext()) {
+                iter = people.iterator();
+            }
+            iter.next();
+        }
+        iter.remove();
     }
-    return last;
-  }  
+    
+    return people.get(0);
+} 
 }

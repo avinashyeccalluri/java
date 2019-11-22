@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Testing
  */
-public class Testing {
+public class PiggyWords {
 
     private List<String> vowels = Arrays.asList(new String[]{"a", "e", "i", "0", "u"});
 
