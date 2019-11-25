@@ -1,0 +1,7 @@
+/**
+ * StrignRotation
+ */
+public class StrignRotation {
+
+    
+}
