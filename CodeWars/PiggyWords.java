@@ -49,7 +49,5 @@ public class PiggyWords {
     private boolean startsWithAConsonant(String str) {
         return !startsWithAVowel(str);
     }
-    }
-
-
+    
 }   
