@@ -2,10 +2,49 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - MergeSort1",
+      "name": "CodeLens (Launch) - StrignRotation",
       "request": "launch",
-      "mainClass": "MergeSort1",
+      "mainClass": "StrignRotation",
       "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - NewAverage",
+      "request": "launch",
+      "mainClass": "NewAverage",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SpeedControl",
+      "request": "launch",
+      "mainClass": "SpeedControl",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - GrowthOfPopulation",
+      "request": "launch",
+      "mainClass": "GrowthOfPopulation",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PrimeNumber",
+      "request": "launch",
+      "mainClass": "PrimeNumber",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ArrayRotation",
+      "request": "launch",
+      "mainClass": "ArrayRotation",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MergeSort1",
       "request": "launch",
       "mainClass": "PhoneNumber",
       "projectName": "Java_72da403b"
