@@ -1,2 +1,2 @@
-int[] b=new int[count];
-        // int initial=0;
+m;
+      // returningArray[1]=count;

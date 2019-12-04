@@ -2,7 +2,7 @@
 /**
  * Test
  */
-public class Test {
+public class addLetters {
 
     public static void main(String[] args) {
         // int ascii='a';

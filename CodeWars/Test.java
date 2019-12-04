@@ -1,21 +1,23 @@
+/**
+ * Test
+ */
 import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        int[] a={0,1,3,6,10};
-        System.out.println(sumParts(a));
+        int[] a={10,2,1};
+        System.out.println(sumArray(a));
     }
-    public static int[] sumParts(int[] ls) {
+    static  int sumArray(int[] someArray) {
         int sum=0;
-        int[] addedValues=new int[ls.length];
-        for(int i=0;i<ls.length;i++){
-            for(int j=i;j<ls.length;j++){
-                sum+=ls[j];
-            }
-            addedValues[i]=sum;
+        Arrays.sort(someArray);
+        ArrayList<Integer> ac=new ArrayList<>();
+        for(int i=someArray.length-1;i>=1;i--){
+            ac.add(someArray[i]-someArray[i-1]);
         }
-
-        return null;
+        for(int i:ac){
+            sum+=i;
+        }
+        return sum;
     }
-    
 }

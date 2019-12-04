@@ -8,16 +8,13 @@ import java.util.List;
 public class FlamesConcept {
 
   public static void main(String[] args) {
-    System.out.println(josephusSurvivor(7, 3));
-    
+    System.out.println(josephusSurvivor(7, 3));    
   }
-  public static int josephusSurvivor(final int n, final int k) {
-        
+  public static int josephusSurvivor(final int n, final int k) {        
     List<Integer> people = new LinkedList<>();
     for (int i = 1; i <= n; i++) {
         people.add(i);
-    }
-    
+    }    
     Iterator iter = people.iterator();
     while (people.size() > 1) {
         for (int i = 0; i < k; i++) {
@@ -30,5 +27,5 @@ public class FlamesConcept {
     }
     
     return people.get(0);
-} 
+  } 
 }

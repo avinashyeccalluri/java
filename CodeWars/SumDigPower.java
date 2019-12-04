@@ -9,7 +9,7 @@ public class SumDigPower {
 
     
 }
-class SumDigPower {
+class SumDigPower1 {
     
     public static List<Long> sumDigPow(long a, long b) {
         List<Long> result = new ArrayList<>();
