@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LastnameSorting",
+      "request": "launch",
+      "mainClass": "LastnameSorting",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UnderSTanding",
+      "request": "launch",
+      "mainClass": "UnderSTanding",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StrignRotation",
       "request": "launch",
       "mainClass": "StrignRotation",
