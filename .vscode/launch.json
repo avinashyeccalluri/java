@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "Practising.IntegerLinkedList.Main",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - practising",
+      "request": "launch",
+      "mainClass": "practising",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StrignRotation",
       "request": "launch",
       "mainClass": "StrignRotation",
