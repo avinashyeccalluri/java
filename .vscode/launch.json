@@ -2,17 +2,17 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - Main",
+      "name": "CodeLens (Launch) - LastnameSorting",
       "request": "launch",
-      "mainClass": "Practising.IntegerLinkedList.Main",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LastnameSorting",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - practising",
+      "name": "CodeLens (Launch) - UnderSTanding",
       "request": "launch",
-      "mainClass": "practising",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "UnderSTanding",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
