@@ -2,6 +2,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - WellofIdeas",
+      "request": "launch",
+      "mainClass": "WellofIdeas",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RemoveStringSpaces",
+      "request": "launch",
+      "mainClass": "RemoveStringSpaces",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StringComparison",
+      "request": "launch",
+      "mainClass": "StringComparison",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Titilecasing",
+      "request": "launch",
+      "mainClass": "Titilecasing",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - continueAddtion",
+      "request": "launch",
+      "mainClass": "continueAddtion",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Determineifnumber",
+      "request": "launch",
+      "mainClass": "InterviewQuestions.Interviewpro.Determineifnumber",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Skipsorting",
+      "request": "launch",
+      "mainClass": "InterviewQuestions.Zoho.Skipsorting",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Avinash",
+      "request": "launch",
+      "mainClass": "InterviewQuestions.Zoho.Avinash",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CCC",
+      "request": "launch",
+      "mainClass": "InterviewQuestions.Zoho.CCC",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - toKnow",
+      "request": "launch",
+      "mainClass": "toKnow",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Helloworld",
+      "request": "launch",
+      "mainClass": "Helloworld",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - alphabet1",
+      "request": "launch",
+      "mainClass": "alphabet1",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - LastnameSorting",
       "request": "launch",
       "mainClass": "LastnameSorting",

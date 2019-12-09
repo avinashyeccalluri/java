@@ -1,6 +1,14 @@
  class Helloworld{
   public static void main(String[] args){
-    int[] a={1,2,3,4,5,6,7};
+//     String word = "avinash";
+//   String guess = "n";
+//     int index = word.indexOf(guess);
+//   while (index >= 0) {
+//     System.out.println(index);
+//     index = word.indexOf(guess, index + 1);
+// }
+  String a ="P O~ O~ ~O O~ ";
+  System.out.println(a.indexOf("P"));
 
   }
 }
