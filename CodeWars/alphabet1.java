@@ -7,8 +7,6 @@ public class alphabet1 {
         System.out.println(m1("aaaabbbcccbb"));
         
     }
-
-
    static String m1(String str){
         
             int len = str.length();
@@ -24,9 +22,6 @@ public class alphabet1 {
                 }else count++;
             }
              result = result+s+count;
-            return result;
-      
-      
-   
+            return result;   
     }
 }

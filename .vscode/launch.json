@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - KeypadPresses",
+      "request": "launch",
+      "mainClass": "KeypadPresses",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CubePile",
+      "request": "launch",
+      "mainClass": "CubePile",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - WellofIdeas",
       "request": "launch",
       "mainClass": "WellofIdeas",
