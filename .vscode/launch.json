@@ -2,17 +2,24 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - KeypadPresses",
+      "name": "CodeLens (Launch) - StrongestEvenNumber",
       "request": "launch",
-      "mainClass": "KeypadPresses",
-      "projectName": "Java1_e82d3684"
+      "mainClass": "CodeWars.StrongestEvenNumber",
+      "projectName": "java_72e8cc1b"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - CubePile",
+      "name": "CodeLens (Launch) - RowOfOddTriangle",
       "request": "launch",
-      "mainClass": "CubePile",
-      "projectName": "Java1_e82d3684"
+      "mainClass": "CodeWars.RowOfOddTriangle",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SkiJump",
+      "request": "launch",
+      "mainClass": "CodeWars.SkiJump",
+      "projectName": "java_72e8cc1b"
     },
     {
       "type": "java",
