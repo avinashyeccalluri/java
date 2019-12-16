@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - CountingDuplicates",
+      "request": "launch",
+      "mainClass": "CountingDuplicates",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Indexing",
+      "request": "launch",
+      "mainClass": "Indexing",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ClerkChange",
+      "request": "launch",
+      "mainClass": "ClerkChange",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Change",
+      "request": "launch",
+      "mainClass": "Change",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - practising",
       "request": "launch",
       "mainClass": "practising",
