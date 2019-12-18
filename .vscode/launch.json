@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ArrayRotation",
+      "request": "launch",
+      "mainClass": "ProQuestions.ArrayRotation",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StrongestEven",
+      "request": "launch",
+      "mainClass": "StrongestEven",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CountingDuplicates",
       "request": "launch",
       "mainClass": "CountingDuplicates",

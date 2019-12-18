@@ -7,7 +7,7 @@ public class ArrayRotation {
 
   public static void main(String[] args) {
     int[] a ={1,2,3,4,5};
-    printArray(rotate_list(a, 5));
+    printArray(rotate_list(a, 4));
   }
   public static int[] rotate_list(int[] nums,int k){
     reverse(nums, 0, k);
