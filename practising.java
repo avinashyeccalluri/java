@@ -1,31 +1,32 @@
 /**
  * practising
- */
+//  */
+// s1 = "6900690040"
+// s2 = "4690606946"
+// s3 = "9990494604"
 public class practising {
 
   public static void main(String[] args) {
-    // System.out.println(Digits(9876543210l));
-    int[] a={8,6,10};
-    int[] b={8,6,10};
-    printArray(Digits(a, b));
-  }
-  public static int[] Digits(int[] input1,int[] input2) {
-    int a_score=0;
-    int b_score=0;
-    if(input1.length!=input2.length){
-      return new int[] {0,0};
-    }
-    for(int i=0;i<input1.length;i++){
-      if(input1[i]>input2[i]){
-        a_score++;
-      }else if(input1[i]<input2[i]){
-        b_score++;
+    String a="444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694, 666094, 606490";
+    String[] b=a.split(", ");
+    int count=0;
+    for(int i=0;i<b.length-1;i++){
+      // System.out.println(i);
+      for(int j=0;j<b[i].length();j++){
+        if(b[i].charAt(j)==b[i+1].charAt(j)){
+          count++;
+        }
       }
-    }return new int[] {a_score,b_score};
-  }
-  public static void printArray(int[] input){
-    for (int i : input) {
-      System.out.println(i);
     }
+    for(int i =0;i<b[1].length();i++){
+      if(b[0].charAt(i)==b[b.length-1].charAt(i)){
+        count++;
+      }
+    }
+    double as=count*100;
+    // System.out.println(String.format("%.10g%n", (double)(as)/(double)(b.length*b[0].length())));
+    System.out.println((double)(as)/(double)(b.length*b[0].length()));
+    // System.out.println(count);
+    // System.out.println((b.length*b[0].length()));
   }
 }
