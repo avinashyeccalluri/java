@@ -2,6 +2,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SortTheGift",
+      "request": "launch",
+      "mainClass": "SortTheGift",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SmokingTimmy",
+      "request": "launch",
+      "mainClass": "SmokingTimmy",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DoubleSort",
+      "request": "launch",
+      "mainClass": "DoubleSort",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - reverseInteger",
+      "request": "launch",
+      "mainClass": "reverseInteger",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TwoSum",
+      "request": "launch",
+      "mainClass": "TwoSum",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SumofOdd",
+      "request": "launch",
+      "mainClass": "SumofOdd",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Rats",
+      "request": "launch",
+      "mainClass": "Rats",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ArrayRotation",
       "request": "launch",
       "mainClass": "ProQuestions.ArrayRotation",
