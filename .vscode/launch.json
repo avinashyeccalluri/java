@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - DNAtoRNA",
+      "request": "launch",
+      "mainClass": "CodeWars.DNAtoRNA",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StringTemplate",
+      "request": "launch",
+      "mainClass": "CodeWars.StringTemplate",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - practising",
+      "request": "launch",
+      "mainClass": "practising",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RemoveCharecters",
+      "request": "launch",
+      "mainClass": "CodeWars.RemoveCharecters",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IsDigit",
+      "request": "launch",
+      "mainClass": "CodeWars.IsDigit",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StrongestEvenNumber",
       "request": "launch",
       "mainClass": "StrongestEvenNumber",
