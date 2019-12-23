@@ -1,32 +1,34 @@
+import java.util.ArrayList;
+import java.util.*;
+import java.util.LinkedHashSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * practising
 //  */
 // s1 = "6900690040"
 // s2 = "4690606946"
 // s3 = "9990494604"
+//https://www.codewars.com/kata/search/java?q=&r%5B%5D=-7&tags=Strings&beta=false
 public class practising {
 
   public static void main(String[] args) {
-    String a="444996, 699990, 666690, 096904, 600644, 640646, 606469, 409694, 666094, 606490";
-    String[] b=a.split(", ");
-    int count=0;
-    for(int i=0;i<b.length-1;i++){
-      // System.out.println(i);
-      for(int j=0;j<b[i].length();j++){
-        if(b[i].charAt(j)==b[i+1].charAt(j)){
+    System.out.println(tidyNumber(123456789));
+    }
+    public static boolean tidyNumber(int a)
+    { if(a==0){
+      return false;
+    }
+      String[] b=(String.valueOf(a).split(""));
+      int count=0;
+      for(int i=0 ;i<b.length-1;i++){
+        if(b[i].compareTo(b[i+1])<0){
           count++;
         }
-      }
+      }if(count==b.length-1){
+        return(true);
+      }return(false);
     }
-    for(int i =0;i<b[1].length();i++){
-      if(b[0].charAt(i)==b[b.length-1].charAt(i)){
-        count++;
-      }
-    }
-    double as=count*100;
-    // System.out.println(String.format("%.10g%n", (double)(as)/(double)(b.length*b[0].length())));
-    System.out.println((double)(as)/(double)(b.length*b[0].length()));
-    // System.out.println(count);
-    // System.out.println((b.length*b[0].length()));
-  }
 }
+

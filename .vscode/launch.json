@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AreTheySame",
+      "request": "launch",
+      "mainClass": "AreTheySame",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - StrongestEvenNumber",
       "request": "launch",
       "mainClass": "StrongestEvenNumber",
