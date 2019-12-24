@@ -2,20 +2,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - DNAtoRNA",
-      "request": "launch",
-      "mainClass": "CodeWars.DNAtoRNA",
-      "projectName": "java_72e8cc1b"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - StringTemplate",
-      "request": "launch",
-      "mainClass": "CodeWars.StringTemplate",
-      "projectName": "java_72e8cc1b"
-    },
-    {
-      "type": "java",
       "name": "CodeLens (Launch) - practising",
       "request": "launch",
       "mainClass": "practising",
@@ -23,17 +9,24 @@
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - RemoveCharecters",
+      "name": "CodeLens (Launch) - DivisibleCountrange",
       "request": "launch",
-      "mainClass": "CodeWars.RemoveCharecters",
+      "mainClass": "CodeWars.DivisibleCountrange",
       "projectName": "java_72e8cc1b"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - IsDigit",
+      "name": "CodeLens (Launch) - squareDigits",
       "request": "launch",
-      "mainClass": "CodeWars.IsDigit",
+      "mainClass": "CodeWars.squareDigits",
       "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - AreTheySame",
+      "request": "launch",
+      "mainClass": "AreTheySame",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
