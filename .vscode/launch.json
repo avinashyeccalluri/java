@@ -4,6 +4,13 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "MasteringDataStructures.HashTable.Main",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "MasteringDataStructures.CircularQueue.Main",
       "projectName": "java_72e8cc1b"
     },
