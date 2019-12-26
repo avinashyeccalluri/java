@@ -66,6 +66,9 @@ public class SingleLinkedList {
             printHead=printHead.getNext();
         }
     }
+    public Node head(){
+        return head;
+    }
     public void addtoPosition(int data,int position){
         Node prev=null;
         Node newElement=new Node(data);
