@@ -1,6 +1,6 @@
 /**
  * CountingDuplicates
- */
+ */package CodeWars;
 import java.util.HashSet;
 public class CountingDuplicates {
 

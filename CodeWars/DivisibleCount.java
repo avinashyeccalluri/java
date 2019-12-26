@@ -1,6 +1,6 @@
 /**
  * DivisibleCount
- */
+ */package CodeWars;
 public class DivisibleCount {
 
     public static void main(String[] args) {

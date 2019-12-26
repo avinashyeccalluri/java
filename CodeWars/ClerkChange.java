@@ -1,6 +1,6 @@
 /**
  * ClerkChange
- */
+ */package CodeWars;
 public class ClerkChange {
 
     public static void main(String[] args) {

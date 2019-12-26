@@ -1,6 +1,6 @@
 /**
  * GetSum
- */
+ */package CodeWars;
 public class GetSum {
 
     public static void main(String[] args) {

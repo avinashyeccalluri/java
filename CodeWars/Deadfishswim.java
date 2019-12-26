@@ -1,6 +1,6 @@
 /**
  * Deadfishswim
- */
+ */package CodeWars;
 import java.lang.*; 
 public class Deadfishswim {
 

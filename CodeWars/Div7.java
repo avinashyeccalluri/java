@@ -1,6 +1,6 @@
 /**
  * Div7
- */
+ */package CodeWars;
 public class Div7 {
 
   public static void main(String[] args) {

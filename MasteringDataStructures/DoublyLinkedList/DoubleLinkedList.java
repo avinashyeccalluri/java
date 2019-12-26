@@ -1,4 +1,4 @@
-package MasteringLinkedList.DoublyLinkedList;
+package MasteringDataStructures.DoublyLinkedList;
 
 /**
  * DoubleLinkedList

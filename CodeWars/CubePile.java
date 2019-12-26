@@ -1,6 +1,6 @@
 /**
  * Test
- */
+ */package CodeWars;
 public class CubePile {
     public static void main(String[] args) {
         System.out.println(findNb(1071225));        

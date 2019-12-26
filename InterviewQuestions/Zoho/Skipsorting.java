@@ -6,7 +6,7 @@ package InterviewQuestions.Zoho;
 public class Skipsorting {
 
     public static void main(String[] args) {
-        int[] a={13,2 4,15,12,10,5};
+        int[] a={13,2,4,15,12,10,5};
         for(int i=0;i<a.length-1;i+=2){
             if(a[i]>a[i+1]){
                 int temp=a[i];

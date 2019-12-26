@@ -1,3 +1,4 @@
+package CodeWars;
 /**
  * alphabet1
  */

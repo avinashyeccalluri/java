@@ -1,4 +1,4 @@
-package MasteringLinkedList.SinglyLinkedList;
+package MasteringDataStructures.SinglyLinkedList;
 
 /**
  * SingleLinkedList

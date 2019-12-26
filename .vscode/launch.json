@@ -4,6 +4,20 @@
       "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
+      "mainClass": "MasteringDataStructures.CircularQueue.Main",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "MasteringDataStructures.ArrayQueue.Main",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
       "mainClass": "MasteringLinkedList.DoublyLinkedList.Main",
       "projectName": "Java1_e82d3684"
     },
