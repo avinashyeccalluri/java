@@ -1,7 +1,0 @@
-/**
- * trying
- */
-public class trying {
-
-  
-}
