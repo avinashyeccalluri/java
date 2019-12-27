@@ -2,6 +2,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - isSubsequence",
+      "request": "launch",
+      "mainClass": "LeetCode.isSubsequence",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Jewels",
+      "request": "launch",
+      "mainClass": "LeetCode.Jewels",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DefangIP",
+      "request": "launch",
+      "mainClass": "LeetCode.DefangIP",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RemoveDuplicates",
+      "request": "launch",
+      "mainClass": "LeetCode.RemoveDuplicates",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MaxArea",
+      "request": "launch",
+      "mainClass": "LeetCode.MaxArea",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RomanToInteger",
+      "request": "launch",
+      "mainClass": "LeetCode.RomanToInteger",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - HiddenCubicNumbers",
       "request": "launch",
       "mainClass": "HiddenCubicNumbers",
