@@ -1,6 +1,6 @@
 /**
  * SpeedControl
- */
+ */package CodeWars;
 public class SpeedControl {
 
     public static void main(String[] args) {

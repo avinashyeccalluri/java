@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package CodeWars;import java.util.ArrayList;
 import java.util.Collections;
 
 /**

@@ -1,6 +1,6 @@
 /**
  * lostwithoutMap
- */
+ */package CodeWars;
 public class lostwithoutMap {
 
     public static void main(String[] args) {

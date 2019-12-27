@@ -1,6 +1,6 @@
 /**
  * SmokingTimmy
- */
+ */package CodeWars;
 public class SmokingTimmy {
 
     public static void main(String[] args) {

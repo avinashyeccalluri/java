@@ -1,6 +1,6 @@
 /**
  * PractiseAgain
- */
+ */package CodeWars;
 import java.util.*;
 public class QueueTiming {
 

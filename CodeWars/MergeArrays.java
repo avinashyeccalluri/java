@@ -1,6 +1,6 @@
 /**
  * MergeArrays
- */
+ */package CodeWars;
 import java.util.*;
 public class MergeArrays {
 

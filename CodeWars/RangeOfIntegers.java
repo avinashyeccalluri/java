@@ -1,6 +1,6 @@
 /**
  * RangeOfIntegers
- */
+ */package CodeWars;
 public class RangeOfIntegers {
     // generateRange(2, 10, 2) // should return array of [2,4,6,8,10]
     public static void main(String[] args) {

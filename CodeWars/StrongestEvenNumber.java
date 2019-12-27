@@ -1,6 +1,6 @@
 /**
  * StrongestEvenNumber
- */
+ */package CodeWars;
 public class StrongestEvenNumber {
 
     public static void main(String[] args) {

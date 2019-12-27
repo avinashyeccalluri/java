@@ -1,6 +1,6 @@
 /**
  * SortTheGift
- */
+ */package CodeWars;
 import java.util.*;
 public class SortTheGift {
 

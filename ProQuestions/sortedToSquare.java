@@ -44,9 +44,5 @@ public class sortedToSquare {
       System.out.println(integer);
     }
   }
-  public static int[] arrayListToArray(ArrayList<Integer> input1){
-    // int[] object=input1.toArray();
-    return object;
-
-  }
+  
 }

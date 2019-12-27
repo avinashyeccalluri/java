@@ -1,6 +1,6 @@
 /**
  * Test
- */
+ */package Practising;
 import java.util.*;     
 public class Test {
 

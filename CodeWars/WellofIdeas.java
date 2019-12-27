@@ -1,4 +1,4 @@
-/**
+package CodeWars;/**
  * WellofIdeas 
  */
 public class WellofIdeas  {

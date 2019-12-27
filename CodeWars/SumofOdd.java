@@ -1,6 +1,6 @@
 /**
  * SumofOdd
- */
+ */package CodeWars;
 public class SumofOdd {
 
     public static void main(String[] args) {

@@ -9,9 +9,7 @@ public class DoubleSort {
         Object[] a={"as","sd","dfg"};
         // printArray(dbSort(a));
     }
-    // public static Object[] dbSort(Object[] a){
-        
-    }
+    
     public static void printArray(Object[] a){
         for (Object object : a) {
             System.out.println(object);

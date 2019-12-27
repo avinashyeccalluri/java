@@ -1,6 +1,6 @@
 /**
  * KeypadPresses
- */
+ */package CodeWars;
 public class KeypadPresses {
 
     public static void main(String[] args) {

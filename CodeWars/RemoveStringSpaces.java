@@ -1,6 +1,6 @@
 /**
  * RemoveStringSpaces
- */
+ */package CodeWars;
 public class RemoveStringSpaces {
 
     public static void main(String[] args) {

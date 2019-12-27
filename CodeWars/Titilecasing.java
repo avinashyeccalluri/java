@@ -1,6 +1,6 @@
 /**
  * Titilecasing
- */
+ */package CodeWars;
 public class Titilecasing {
 
     public static void main(String[] args) {

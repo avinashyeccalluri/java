@@ -1,4 +1,4 @@
-import java.util.*;
+package CodeWars;import java.util.*;
 /**
  * PrimeNumber
  */

@@ -1,6 +1,6 @@
 /**
  * Order
- */
+ */package CodeWars;
 public class Order {
 
     public static void main(String[] args) {

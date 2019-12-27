@@ -1,6 +1,6 @@
 /**
  * NewAverage
- */
+ */package CodeWars;
 public class NewAverage {
 
     public static void main(String[] args) {

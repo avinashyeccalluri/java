@@ -1,6 +1,6 @@
 /**
  * HomeNumbers
- */
+ */package CodeWars;
 public class HomeNumbers {
 
     public static void main(String[] args) {

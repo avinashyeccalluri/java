@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Practising; import java.util.Scanner;
 class MaxandMin{
   public static void main(String... args){
     Scanner input= new Scanner(System.in);

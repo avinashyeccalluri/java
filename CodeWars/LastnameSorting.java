@@ -1,6 +1,6 @@
 /**
  * LastnameSorting
- */
+ */package CodeWars;
 import java.util.regex.*;
 import java.util.stream.Collectors;
 import java.util.*;  

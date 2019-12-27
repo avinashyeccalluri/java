@@ -1,6 +1,6 @@
 /**
  * SumEqualsInAArray
- */
+ */package CodeWars;
 public class SumEqualsInAArray {
   public static void main(String[] args) {
     prinArray(givingAnswer(9));

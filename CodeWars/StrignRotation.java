@@ -1,6 +1,6 @@
 /**
  * StrignRotation
- */
+ */package CodeWars;
 public class StrignRotation {
 
     public static void main(String[] args) {

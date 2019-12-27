@@ -1,4 +1,5 @@
-class Sumof3and5{
+
+package Practising;class Sumof3and5{
   public static void main(String... args){
     int sum=0;
     int count=0;

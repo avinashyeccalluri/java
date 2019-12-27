@@ -1,6 +1,6 @@
 /**
  * GrowthOfPopulation
- */
+ */ package CodeWars;
 public class GrowthOfPopulation {
 
     public static void main(String[] args) {
