@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ReverseInteger",
+      "request": "launch",
+      "mainClass": "LeetCode.ReverseInteger",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ReversingArray",
+      "request": "launch",
+      "mainClass": "LeetCode.ReversingArray",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UniqueMorseRepresentations",
+      "request": "launch",
+      "mainClass": "LeetCode.UniqueMorseRepresentations",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - RemovingOuterParanthesis",
+      "request": "launch",
+      "mainClass": "LeetCode.RemovingOuterParanthesis",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BalancedStringSplit",
+      "request": "launch",
+      "mainClass": "LeetCode.BalancedStringSplit",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - isSubsequence",
       "request": "launch",
       "mainClass": "LeetCode.isSubsequence",
