@@ -28,7 +28,7 @@ public class SingleLinkedList {
             }
             addendElement.setNext(node);
         addendElement.getNext().setNext(null);
-        }tail=node;
+        }tail=node;size++;
     }
     public int size(){
         return size;
