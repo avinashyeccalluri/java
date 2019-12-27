@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Jewels",
+      "request": "launch",
+      "mainClass": "LeetCode.Jewels",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ReverseInteger",
       "request": "launch",
       "mainClass": "LeetCode.ReverseInteger",
