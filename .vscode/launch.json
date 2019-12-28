@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SelfDividingNumbers",
+      "request": "launch",
+      "mainClass": "LeetCode.SelfDividingNumbers",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - JudgeCircle",
+      "request": "launch",
+      "mainClass": "LeetCode.JudgeCircle",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ParityOrder",
+      "request": "launch",
+      "mainClass": "LeetCode.ParityOrder",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DefangIP",
+      "request": "launch",
+      "mainClass": "LeetCode.DefangIP",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Jewels",
       "request": "launch",
       "mainClass": "LeetCode.Jewels",
