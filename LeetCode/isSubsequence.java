@@ -12,8 +12,7 @@ public class isSubsequence {
     }
     public static boolean isSubsequence(String s, String t) {
         if (s == null || t == null)
-            return false;
-        
+            return false;        
         int j = 0;
         for (char c : s.toCharArray()) {
             int index = t.indexOf(c, j);

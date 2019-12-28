@@ -1,31 +1,32 @@
 package LeetCode;
-
+import java.util.*;
 /**
  * RemovingOuterParanthesis
  */
 public class RemovingOuterParanthesis {
 
   public static void main(String[] args) {
-    String a="()()";
+    String a="(()())(())";
     System.out.println(removeOuterParentheses(a));
   }
   public static String removeOuterParentheses(String S) {
-    String result="";
-    int start=0;
-    int end=0;
-    int index=0;
-    int counting=0;
-    char[] a=S.toCharArray();
-    for(int i=0;i<a.length;i++){
-       if(a[i]=='('){counting+=1;
-      }else{counting-=1;
-      }
-      if(counting==0){        
-        end=i;
-        result+=S.substring(start+1, end);
-        start=end+1;        
-      }
-    }return result;
+    StringBuilder builder = new StringBuilder();
+        Stack<Character> s = new Stack<Character>();
+        int l = -1;
+        for(int i = 0; i < S.length(); i++){
+            char ch = S.charAt(i);
+            if(ch == '('){
+                s.push(ch);
+                if(l == -1) l = i;
+            }else{
+                s.pop();
+            }
+            if(s.isEmpty()){
+                builder.append(S.substring(l+1, i));
+                l = -1;
+            }
+        }
+        return builder.toString();
         
   }
 }
