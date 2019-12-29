@@ -6,7 +6,7 @@ import java.util.*;
 public class RemovingOuterParanthesis {
 
   public static void main(String[] args) {
-    String a="(()())(())";
+    String a="()()";
     System.out.println(removeOuterParentheses(a));
   }
   public static String removeOuterParentheses(String S) {
@@ -17,12 +17,12 @@ public class RemovingOuterParanthesis {
             char ch = S.charAt(i);
             if(ch == '('){
                 s.push(ch);
-                if(l == -1) l = i;
+                if(l == -1) l = i+1;
             }else{
                 s.pop();
             }
             if(s.isEmpty()){
-                builder.append(S.substring(l+1, i));
+                builder.append(S.substring(l, i));
                 l = -1;
             }
         }

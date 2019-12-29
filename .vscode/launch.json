@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MoveZeros",
+      "request": "launch",
+      "mainClass": "LeetCode.MoveZeros",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FizzBuzz",
+      "request": "launch",
+      "mainClass": "LeetCode.FizzBuzz",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SingleNumber",
+      "request": "launch",
+      "mainClass": "LeetCode.SingleNumber",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - SelfDividingNumbers",
       "request": "launch",
       "mainClass": "LeetCode.SelfDividingNumbers",

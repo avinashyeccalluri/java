@@ -17,7 +17,9 @@ public class Main {
     HT.put("Dow",johnDoe);
     HT.put("Wilson",mikeWilson);
     HT.put("Smith",marySmith);
-    // HT.printAll();
+
+    HT.printAll();
     System.out.println("Retriving Key Wilson "+ HT.get("Wilson"));
+    System.out.println("Retriving Key Wilson "+ HT.get("Smith"));
   }
 }
