@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "LeetCode.ContainsDuplicate",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IsAnagram",
+      "request": "launch",
+      "mainClass": "LeetCode.IsAnagram",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MajorityElement",
+      "request": "launch",
+      "mainClass": "LeetCode.MajorityElement",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - practising",
       "request": "launch",
       "mainClass": "Practising.practising",
