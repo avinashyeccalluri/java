@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - practising",
+      "request": "launch",
+      "mainClass": "Practising.practising",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Main",
       "request": "launch",
       "mainClass": "MasteringDataStructures.HashTable.Main",

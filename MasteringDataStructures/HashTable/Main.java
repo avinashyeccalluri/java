@@ -18,9 +18,11 @@ public class Main {
     HT.put("Wilson",mikeWilson);
     HT.put("Smith",marySmith);
 
+    HT.printAll();System.out.println("----------------------------------");
+    HT.remove("Wilson");
     HT.printAll();
-    HT.get("Wilson");
-    System.out.println("Retriving Key Wilson "+ HT.get("Wilson"));
-    System.out.println("Retriving Key Wilson "+ HT.get("Smith"));
+
+    // System.out.println("Retriving Key Wilson "+ HT.get("Wilson"));
+    // System.out.println("Retriving Key Wilson "+ HT.get("Smith"));
   }
 }

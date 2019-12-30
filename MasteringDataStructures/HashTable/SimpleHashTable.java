@@ -10,6 +10,14 @@ public class SimpleHashTable {
       hashtable=new StoredEmployee[10];
   }
 
+  public void remove(String key){
+    int hashkey=findKey(key);
+    if(hashkey==-1){
+      return ;
+    }hashtable[hashkey]=null;
+    
+  }
+
   private int hashedKey(String key){
     return key.length()%hashtable.length;
   }
