@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "MasteringDataStructures.HashTable.Main",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CommonCharecters",
       "request": "launch",
       "mainClass": "LeetCode.CommonCharecters",
