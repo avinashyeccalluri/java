@@ -2,10 +2,59 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - backSpace",
+      "name": "CodeLens (Launch) - practising",
       "request": "launch",
-      "mainClass": "CodeWars.backSpace",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "Practising.practising",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "mainClass": "MasteringDataStructures.HashTable.Main",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CommonCharecters",
+      "request": "launch",
+      "mainClass": "LeetCode.CommonCharecters",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ArrayPairSum",
+      "request": "launch",
+      "mainClass": "LeetCode.ArrayPairSum",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UniqueOcurence",
+      "request": "launch",
+      "mainClass": "LeetCode.UniqueOcurence",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - SortedSquare",
+      "request": "launch",
+      "mainClass": "LeetCode.SortedSquare",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Backspace",
+      "request": "launch",
+      "mainClass": "Backspace",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
