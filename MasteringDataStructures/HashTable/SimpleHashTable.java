@@ -4,16 +4,13 @@ package MasteringDataStructures.HashTable;
  * SimpleHashTable
  */
 public class SimpleHashTable {
-
   private StoredEmployee[] hashtable;
   public SimpleHashTable(){
       hashtable=new StoredEmployee[10];
   }
-
   private int hashedKey(String key){
     return key.length()%hashtable.length;
   }
-
   void put(String key,Employee employee){
     int hashkey=hashedKey(key);
     if(occupied(hashkey)){
@@ -25,10 +22,8 @@ public class SimpleHashTable {
       }
       while (occupied(hashkey) && stopIndex!=hashkey) {{
         hashkey=(hashkey+1)%hashtable.length;
+      }        
       }
-        
-      }
-
     }
     if(occupied(hashkey)){
       System.out.println("The position is occupied");
@@ -36,14 +31,12 @@ public class SimpleHashTable {
       hashtable[hashkey]=new StoredEmployee(key, employee);
     }
   }
-
   public Employee get(String key){
     int hashkey=findKey(key);
     if(hashkey==-1){
       return null;
     }return hashtable[hashkey].employee;
   }
-
   public int findKey(String key){
     int hashkey=hashedKey(key);
     if(hashtable[hashkey]!=null && hashtable[hashkey].key.equals(key)){
@@ -62,10 +55,6 @@ public class SimpleHashTable {
         return hashkey;
       }return -1;
       }
-        
-      
-  
-
   public void printAll(){
     for(int i =0;i<hashtable.length;i++){
       if(hashtable[i]==null){
