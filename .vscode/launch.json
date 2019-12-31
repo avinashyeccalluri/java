@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - TopKFrequent",
+      "request": "launch",
+      "mainClass": "LeetCode.TopKFrequent",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MaximumOccurence",
+      "request": "launch",
+      "mainClass": "LeetCode.MaximumOccurence",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ContainsDuplicate",
       "request": "launch",
       "mainClass": "LeetCode.ContainsDuplicate",
