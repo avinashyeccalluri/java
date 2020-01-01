@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Nondecreasing",
+      "request": "launch",
+      "mainClass": "LeetCode.Nondecreasing",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - firstUniqChar",
+      "request": "launch",
+      "mainClass": "LeetCode.firstUniqChar",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - strStr",
+      "request": "launch",
+      "mainClass": "LeetCode.strStr",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - isPalindrome",
+      "request": "launch",
+      "mainClass": "LeetCode.isPalindrome",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ContainsDuplicate",
       "request": "launch",
       "mainClass": "LeetCode.ContainsDuplicate",
