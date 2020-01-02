@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ArrayIntersection",
+      "request": "launch",
+      "mainClass": "LeetCode.ArrayIntersection",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MinimumNUmberRequired",
+      "request": "launch",
+      "mainClass": "LeetCode.MinimumNUmberRequired",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - TopKFrequent",
       "request": "launch",
       "mainClass": "LeetCode.TopKFrequent",

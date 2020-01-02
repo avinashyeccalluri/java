@@ -13,7 +13,7 @@ public class TopKFrequent {
     public static  List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> list= new ArrayList<>();
         // TreeMap<Integer,Integer> hashmap=new TreeMap<>();
-        HashMap<Integer,Integer> hashmap=new HashMap<>();
+        HashMap<Integer,Integer> hashmap=new HashMap<>()<>();
         for(Integer i:nums){
             if(hashmap.containsKey(i)){
                 hashmap.put(i, hashmap.get(i)+1);
@@ -22,7 +22,7 @@ public class TopKFrequent {
             }
         }
         // entriesSortedByValues(hashmap);
-        
+        int maxValueInMap=(Collections.max(hashmap.values()));
         for(int i:hashmap.keySet()){
             int temp=hashmap.get(i);
             if(k<=temp){
