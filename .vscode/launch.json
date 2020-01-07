@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SubDomainCount",
+      "request": "launch",
+      "mainClass": "LeetCode.SubDomainCount",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TwoSum",
+      "request": "launch",
+      "mainClass": "LeetCode.TwoSum",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ArrayIntersection",
       "request": "launch",
       "mainClass": "LeetCode.ArrayIntersection",
