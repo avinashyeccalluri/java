@@ -2,24 +2,10 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - CountCharecters",
+      "name": "CodeLens (Launch) - MissingNumber",
       "request": "launch",
-      "mainClass": "LeetCode.CountCharecters",
-      "projectName": "java_72e8cc1b"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - AdjacentDuplicates",
-      "request": "launch",
-      "mainClass": "LeetCode.AdjacentDuplicates",
-      "projectName": "java_72e8cc1b"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - SumOfSquareNumbers",
-      "request": "launch",
-      "mainClass": "LeetCode.SumOfSquareNumbers",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LeetCode.MissingNumber",
+      "projectName": "java_c09dc2b3"
     },
     {
       "type": "java",
