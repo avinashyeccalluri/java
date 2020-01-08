@@ -8,8 +8,6 @@ public class SimpleHashTable {
   public SimpleHashTable(){
       hashtable=new StoredEmployee[10];
   }
-<<<<<<< HEAD
-=======
 
   public void remove(String key){
     int hashkey=findKey(key);
@@ -19,7 +17,6 @@ public class SimpleHashTable {
     
   }
 
->>>>>>> 574eedef554561c3182b7b6a263f18a39f952d46
   private int hashedKey(String key){
     return key.length()%hashtable.length;
   }
