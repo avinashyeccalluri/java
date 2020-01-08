@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - HappyNumber",
+      "request": "launch",
+      "mainClass": "LeetCode.HappyNumber",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IntersectionOfTwoArrays",
+      "request": "launch",
+      "mainClass": "LeetCode.IntersectionOfTwoArrays",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - BuddyString",
       "request": "launch",
       "mainClass": "LeetCode.BuddyString",
