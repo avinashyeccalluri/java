@@ -1,42 +1,39 @@
 package LeetCode;
+
 import java.util.*;
+
 /**
  * CommonCharecters
  */
 public class CommonCharecters {
 
     public static void main(String[] args) {
-        printArrayList(commonChars(new String[] {"cook","look","lock"} ));
+        printArrayList(commonChars(new String[] {"acabcddd","bcbdbcbd","baddbadb","cbdddcac","aacbcccd","ccccddda","cababaab","addcaccd"}));
     }
     public static List<String> commonChars(String[] A) {
-        Map<Character,Integer> map=new HashMap<>();
-        for(char c:A[0].toCharArray()){
-            map.put(c,map.getOrDefault(c,0)+1);
-        }
-        
-        for(int i=1;i<A.length;i++){
-            Map<Character,Integer> tmp=new HashMap<>();
+        HashMap<Character,Integer> hashmap=new HashMap<>();
+        ArrayList<String> arrayList=new ArrayList<>();
+        for(int i=0;i<A.length;i++){
             for(int j=0;j<A[i].length();j++){
-                char c=A[i].charAt(j);
-                if(map.containsKey(c) && map.get(c)>0){
-                    tmp.put(c,tmp.getOrDefault(c,0)+1);
-                    map.put(c,map.get(c)-1);
+                if(hashmap.containsKey(A[i].charAt(j))){
+                    hashmap.put(A[i].charAt(j),hashmap.get(A[i].charAt(j))+1);
+                }else if( i==0){
+                    hashmap.put(A[i].charAt(j), 1);
                 }
             }
-            map=tmp;
-            if(map.size()==0)break;
         }
-        List<String> res=new ArrayList<>();
-        for(Character c:map.keySet()){
-            for(int k=0;k<map.get(c);k++){
-                res.add(""+c);
-            } 
+        for(Character c:hashmap.keySet()){
+            int k=hashmap.get(c);
+            for(int i =0;i<k/A.length;i++){
+                arrayList.add(Character.toString(c));
+            }
         }
-        return res;
+        return  arrayList;
+        
     }
-    public static void printArrayList(List<String> list){
-        for (String string : list) {
-            System.out.println(string);
+    public static void printArrayList(List<String> input){
+        for(String s:input){
+            System.out.println(s);
         }
     }
 }

@@ -9,7 +9,7 @@ public class CountCharecters {
     System.out.println(longestPalindrome("avinash"));
   }
   public static int longestPalindrome(String s) {
-    int[] map = new int[26];
+    int[] map = new int[26];``
     for (char c : s.toCharArray()) {
         map[c-97]++;
     }

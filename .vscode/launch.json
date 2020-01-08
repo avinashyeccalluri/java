@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - BuddyString",
+      "request": "launch",
+      "mainClass": "LeetCode.BuddyString",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "LeetCode.ContainsDuplicate",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FindWords",
+      "request": "launch",
+      "mainClass": "LeetCode.FindWords",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - findOcurrences",
+      "request": "launch",
+      "mainClass": "LeetCode.findOcurrences",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UncommonWords",
+      "request": "launch",
+      "mainClass": "LeetCode.UncommonWords",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MissingNumber",
       "request": "launch",
       "mainClass": "LeetCode.MissingNumber",
@@ -11,29 +46,43 @@
       "type": "java",
       "name": "CodeLens (Launch) - Nondecreasing",
       "request": "launch",
-      "mainClass": "LeetCode.Nondecreasing",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LeetCode.SubDomainCount",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - firstUniqChar",
+      "name": "CodeLens (Launch) - TwoSum",
       "request": "launch",
-      "mainClass": "LeetCode.firstUniqChar",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LeetCode.TwoSum",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - strStr",
+      "name": "CodeLens (Launch) - ArrayIntersection",
       "request": "launch",
-      "mainClass": "LeetCode.strStr",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LeetCode.ArrayIntersection",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - isPalindrome",
+      "name": "CodeLens (Launch) - MinimumNUmberRequired",
       "request": "launch",
-      "mainClass": "LeetCode.isPalindrome",
-      "projectName": "java_72e8cc1b"
+      "mainClass": "LeetCode.MinimumNUmberRequired",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - TopKFrequent",
+      "request": "launch",
+      "mainClass": "LeetCode.TopKFrequent",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MaximumOccurence",
+      "request": "launch",
+      "mainClass": "LeetCode.MaximumOccurence",
+      "projectName": "Java1_e82d3684"
     },
     {
       "type": "java",
