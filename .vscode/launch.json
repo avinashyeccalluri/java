@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - BuddyString",
+      "request": "launch",
+      "mainClass": "LeetCode.BuddyString",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "LeetCode.ContainsDuplicate",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FindWords",
+      "request": "launch",
+      "mainClass": "LeetCode.FindWords",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - findOcurrences",
+      "request": "launch",
+      "mainClass": "LeetCode.findOcurrences",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UncommonWords",
+      "request": "launch",
+      "mainClass": "LeetCode.UncommonWords",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MissingNumber",
       "request": "launch",
       "mainClass": "LeetCode.MissingNumber",
