@@ -2,7 +2,14 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - SubDomainCount",
+      "name": "CodeLens (Launch) - MissingNumber",
+      "request": "launch",
+      "mainClass": "LeetCode.MissingNumber",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Nondecreasing",
       "request": "launch",
       "mainClass": "LeetCode.SubDomainCount",
       "projectName": "Java1_e82d3684"
