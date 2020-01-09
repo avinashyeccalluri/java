@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Fibonacci",
+      "request": "launch",
+      "mainClass": "LeetCode.Fibonacci",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - findSpecialInteger",
+      "request": "launch",
+      "mainClass": "LeetCode.findSpecialInteger",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - lastStoneWeight",
       "request": "launch",
       "mainClass": "LeetCode.lastStoneWeight",

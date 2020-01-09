@@ -19,7 +19,8 @@ public class lastStoneWeight {
             if(i==0){
                 return stones[0];
             }
-            stones[j]=stones[i]-stones[j];Arrays.sort(stones);
+            stones[j]=stones[i]-stones[j];
+            Arrays.sort(stones);
         }return -1;
 
         }
