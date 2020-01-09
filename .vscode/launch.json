@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - lastStoneWeight",
+      "request": "launch",
+      "mainClass": "LeetCode.lastStoneWeight",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StringBuilder",
+      "request": "launch",
+      "mainClass": "LeetCode.StringBuilder",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - LenghtOfLongestSubString",
       "request": "launch",
       "mainClass": "LeetCode.LenghtOfLongestSubString",
