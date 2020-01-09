@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LenghtOfLongestSubString",
+      "request": "launch",
+      "mainClass": "LeetCode.LenghtOfLongestSubString",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - HappyNumber",
       "request": "launch",
       "mainClass": "LeetCode.HappyNumber",
