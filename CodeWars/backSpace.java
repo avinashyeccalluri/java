@@ -1,7 +1,9 @@
+package CodeWars;
+
 /**
  * Backspace
  */import java.util.*;
-public class Backspace {
+public class backSpace {
 
     public static void main(String[] args) {
         System.out.println(cleanString("abc#d##c"));

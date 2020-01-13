@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ReversingALinkedList",
+      "request": "launch",
+      "mainClass": "LeetCode.ReversingALinkedList",
+      "projectName": "java_72e8cc1b"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Fibonacci",
       "request": "launch",
       "mainClass": "LeetCode.Fibonacci",

@@ -1,19 +1,16 @@
+import java.util.Random;
+
 /**
  * practising
  */
-import java.util.*;
 public class practising {
 
   public static void main(String[] args) {
-    ArrayList<Integer> arrayList=new ArrayList<>();
-    String a="a1b10";
-    String b="-124";
-    String[] aa=a.replaceAll("[^-?0-9]+", "").split(" ");
-    // System.out.println(aa.equals(b));
-    for(int i=0;i<a.length();i++){
-      if(Character.isDigit(a.charAt(i))){
-        arrayList.add(a.ch)
-      }
-    }
+    Random r = new Random();
+int low = 10;
+int high = 100;
+int result =r.nextInt(high-low)+low;
+// System.out.println(result);
+System.out.println();
   }
 }
