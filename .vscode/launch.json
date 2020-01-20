@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "LeetCode.LongestCommonPrefix",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - StackImplementationinjava",
+      "request": "launch",
+      "mainClass": "LeetCode.StackImplementationinjava",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - CountPrimes",
+      "request": "launch",
+      "mainClass": "LeetCode.CountPrimes",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ArrayListOfArray",
+      "request": "launch",
+      "mainClass": "LeetCode.ArrayListOfArray",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - ReversingALinkedList",
       "request": "launch",
       "mainClass": "LeetCode.ReversingALinkedList",

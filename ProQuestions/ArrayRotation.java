@@ -6,10 +6,10 @@ package ProQuestions;
 public class ArrayRotation {
 
   public static void main(String[] args) {
-    int[] a ={1,2,3,4,5};
-    printArray(rotate_list(a, 4));
+    int[] a ={1,2};
+    printArray(rotate(a, 0));
   }
-  public static int[] rotate_list(int[] nums,int k){
+  public static int[] rotate(int[] nums,int k){
     reverse(nums, 0, k);
   reverse(nums, k, nums.length);
   reverse(nums, 0, nums.length);

@@ -10,7 +10,6 @@ public class practising {
 int low = 10;
 int high = 100;
 int result =r.nextInt(high-low)+low;
-// System.out.println(result);
 System.out.println();
   }
 }
