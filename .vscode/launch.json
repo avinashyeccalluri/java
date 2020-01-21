@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - GroupAnagrams",
+      "request": "launch",
+      "mainClass": "LeetCode.GroupAnagrams",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ContainsDuplicateII",
+      "request": "launch",
+      "mainClass": "LeetCode.ContainsDuplicateII",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - WordPatter",
+      "request": "launch",
+      "mainClass": "LeetCode.WordPatter",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - LongestCommonPrefix",
       "request": "launch",
       "mainClass": "LeetCode.LongestCommonPrefix",
