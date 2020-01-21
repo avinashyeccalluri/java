@@ -2,6 +2,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - FrequencySort",
+      "request": "launch",
+      "mainClass": "FrequencySort",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IntersectionOfArrays",
+      "request": "launch",
+      "mainClass": "IntersectionOfArrays",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - KfrequentElements",
+      "request": "launch",
+      "mainClass": "KfrequentElements",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - GroupAnagram",
+      "request": "launch",
+      "mainClass": "GroupAnagram",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - GroupAnagrams",
+      "request": "launch",
+      "mainClass": "GroupAnagrams",
+      "projectName": "java_c09dc2b3"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - GroupAnagrams",
       "request": "launch",
       "mainClass": "LeetCode.GroupAnagrams",

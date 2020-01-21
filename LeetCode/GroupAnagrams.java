@@ -1,4 +1,4 @@
-package LeetCode;
+
 import java.util.*;
 /**
  * GroupAnagrams
@@ -15,8 +15,8 @@ public class GroupAnagrams {
             Arrays.sort(chars);
             String sorted = new String(chars);
             List<String> list = map.get(sorted);
-            if(list == null)
-                list = new ArrayList<String>();
+            if(list == null){
+                list = new ArrayList<String>();}
             list.add(strs[i]);
             map.put(sorted, list);
         }
