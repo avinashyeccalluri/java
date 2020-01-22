@@ -2,6 +2,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - RangeExtraction",
+      "request": "launch",
+      "mainClass": "RangeExtraction",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PokemonDamageCalculator",
+      "request": "launch",
+      "mainClass": "PokemonDamageCalculator",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - NumberOfDivisors",
+      "request": "launch",
+      "mainClass": "NumberOfDivisors",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ReverseSequence",
+      "request": "launch",
+      "mainClass": "ReverseSequence",
+      "projectName": "Java1_e82d3684"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - FrequencySort",
       "request": "launch",
       "mainClass": "FrequencySort",
